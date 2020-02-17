@@ -1,0 +1,18 @@
+---
+title: "Final Project Milestone 2--Pros & Cons of Past Projects"
+author: "Yanghe"
+date: "2/16/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Project 1: Gabriel Walker: A tool for exploring trends in Chinese elite diplomacy and overseas financial flows.
+**Pros**: The project collected Chinese outbound investment data from 2000 to 2018 extensively. The author visualizes the data with a world map, timeline, and a detailed list of each investments. Users can select each country to view statistics on Chinese aid and investment received by that country.In addition, there is a filter on sectors of aids and investments.
+**Cons**: 1. In the filter of officials, it is not appropriate to rank the President, the Prime Minister, and the Minister of Foreign Affairs together. In China, the decision-making powers of these three are different. It would be more reasonable to consider the President, the Prime Minister, and the Minister of Foreign Affairs in the same period as a whole leadership group. Or, because this project is about the capital flow of Chinese diplomacy, it can also be classified according to the diplomatic policy of the Political Bureau of the CPC Central Committee at different times. 2. I suggest the author to add a function that can let users compare the aid and investment statistics between target countries.
+
+## Project 2: Simone Chu: Presidential Speeches.
+**Pros**: The project sorts out the 10 most frequently spoken words in each speech. The emotion(positive/negative) of each word & approval ratins at start and end of presidency are also provided. Users can compare the two kinds of data.
+**Cons**: Providing the 10 most frequently used words in a speech may not fully reflect the emotion and complexity of the speech. The author can use the Flasch-Flesch-kincaid test to evaluate the readability of each speech. He can also apply natural language processing algorithms to measure the sentiment of the entire speech.
